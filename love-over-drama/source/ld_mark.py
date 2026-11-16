@@ -75,11 +75,14 @@ def save(name, layers, out="../ld-mark"):
     for transparent in (False, True):
         im = Image.new("RGBA", (W, Hh), (255, 255, 255, 0 if transparent else 255))
         for g, col in layers:
-            m = Image.new("L", (W, Hh), 0); dr = ImageDraw.Draw(m)
+            from PIL import ImageChops
+            m = Image.new("L", (W, Hh), 0)
             for p in wm.polys(g):
+                pm = Image.new("L", (W, Hh), 0); dr = ImageDraw.Draw(pm)
                 dr.polygon([((x-minx+pad)*S, (maxy-y+pad)*S) for x, y in p.exterior.coords], fill=255)
                 for r in p.interiors:
                     dr.polygon([((x-minx+pad)*S, (maxy-y+pad)*S) for x, y in r.coords], fill=0)
+                m = ImageChops.lighter(m, pm)
             rgb = tuple(int(col[i:i+2], 16) for i in (1, 3, 5)) + (255,)
             im.paste(Image.new("RGBA", (W, Hh), rgb), mask=m)
         im = im.resize((W//3, Hh//3), Image.LANCZOS)
