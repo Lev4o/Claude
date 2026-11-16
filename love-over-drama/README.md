@@ -20,3 +20,10 @@ Four new directions without the oval (`python3 source/ld_concepts.py`):
 2. L over D: a tall gothic L holding a small D, in a thin double ring.
 3. Crest: split gothic shield with L and D carved out, fleur-de-lis on top.
 4. Single line: one continuous line draws the L, runs along the base and becomes the D.
+
+## LD concepts, round 3 (`ld-mark-v3/`)
+`python3 source/ld_concepts2.py`
+5. L over D: gothic L above a rule, D below, a literal "L over D".
+6. Overlap: bold geometric L and D overlapping, the shared corner knocked out in white.
+7. Heart cut-out: solid heart with a clean LD cut out of it.
+8. Wax seal: scalloped seal, gothic LD centre, LOVE OVER DRAMA around the edge.
