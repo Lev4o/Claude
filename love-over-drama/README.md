@@ -34,3 +34,10 @@ Four new directions without the oval (`python3 source/ld_concepts.py`):
 10. Banner: gothic LD above a forked ribbon reading LOVE OVER DRAMA.
 11. Diamond: double-line diamond frame, fleur-de-lis at top and bottom points.
 12. Cathedral window: pointed gothic arch split by a mullion, rose window above, L and D in each light.
+
+## Full-name lockups (`full-name/`)
+`python3 source/full_name.py`
+13. Love wins: LOVE / over / DRAMA, with DRAMA crossed out.
+14. Ring badge: name around a double ring, LD heart in the centre.
+15. Window + name: cathedral-window mark above the full name.
+16. Side by side: LD heart, divider, LOVE / OVER / DRAMA stacked.
