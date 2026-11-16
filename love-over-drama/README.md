@@ -27,3 +27,10 @@ Four new directions without the oval (`python3 source/ld_concepts.py`):
 6. Overlap: bold geometric L and D overlapping, the shared corner knocked out in white.
 7. Heart cut-out: solid heart with a clean LD cut out of it.
 8. Wax seal: scalloped seal, gothic LD centre, LOVE OVER DRAMA around the edge.
+
+## LD concepts, round 4 (`ld-mark-v4/`)
+`python3 source/ld_concepts3.py`
+9. Gothic heart: double-line heart frame with the gothic LD inside.
+10. Banner: gothic LD above a forked ribbon reading LOVE OVER DRAMA.
+11. Diamond: double-line diamond frame, fleur-de-lis at top and bottom points.
+12. Cathedral window: pointed gothic arch split by a mullion, rose window above, L and D in each light.
