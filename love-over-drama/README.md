@@ -48,3 +48,7 @@ Pointed-pen copperplate script: shades on downstrokes, hairline upstrokes, 24° 
   a contextual-alternates feature (calt) joins from the top after o, r, v, w.
 - `script/logo/`: "Love Over Drama" with flourishes, and a clean version without them.
 - Source: `source/script_glyphs.py` (letter strokes), `build_script_font.py`, `script_logo.py`.
+
+## Spray-dot star (`star/`)
+Original 5-point twisted star in a stippled spray texture (`python3 source/star.py star`, then cropped).
+Magenta (#D4145A) and black; PNG on white, transparent PNG, and SVG (every dot is a vector circle).
