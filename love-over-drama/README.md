@@ -41,3 +41,10 @@ Four new directions without the oval (`python3 source/ld_concepts.py`):
 14. Ring badge: name around a double ring, LD heart in the centre.
 15. Window + name: cathedral-window mark above the full name.
 16. Side by side: LD heart, divider, LOVE / OVER / DRAMA stacked.
+
+## Script (copperplate) font and logo (`script/`)
+Pointed-pen copperplate script: shades on downstrokes, hairline upstrokes, 24° slant.
+- `script/font/LoveOverDramaScript-Regular.otf` / `.ttf`: A–Z, a–z. Letters join automatically;
+  a contextual-alternates feature (calt) joins from the top after o, r, v, w.
+- `script/logo/`: "Love Over Drama" with flourishes, and a clean version without them.
+- Source: `source/script_glyphs.py` (letter strokes), `build_script_font.py`, `script_logo.py`.
